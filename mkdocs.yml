@@ -1,0 +1,56 @@
+site_name: Open Wiki
+
+repo_url: https://github.com/open-source-uc/open-wiki
+edit_uri: edit/main/docs/
+
+nav:
+  - Inicio: index.md
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      locale: es
+
+theme:
+  name: material
+  language: es
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: defaultx
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a tema oscuro
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a tema claro
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://osuc.dev
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/OpenSource_eUC
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/opensource_euc/
+    - icon: fontawesome/brands/github
+      link: https://github.com/open-source-uc
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/open-source-euc
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/VMXCNAvjPW
