@@ -1,2 +1,3 @@
+# iic2233 - Programación avanzada
 
-Recomendamos consultar https://iic2233.ing.puc.cl/
+Recomendamos consultar [avanzada app](https://iic2233.ing.puc.cl/)
