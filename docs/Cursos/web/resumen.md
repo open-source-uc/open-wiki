@@ -1,6 +1,5 @@
 # Resumen
 
-
 ## HTTP
 
 _Hypertext Transfer Protocol_. Sirve para la transferencia de información. Se desentiende de la capa de transporte, confia en el TCP y deja que las redes hagan lo suyo.
@@ -52,7 +51,6 @@ Tiene la siguiente sintaxis:
 - Puerto: Nº con lugar fisico donde se escucha una pitición. Ej: 80=HTTP, 443=HTTPS
 - Ruta: nombre del recurso solicitado. Ej: .../admin.html
 
-
 ## DOM
 
 Modelo jerárquico que el navegador construye en base al HTML que está cargando. Incluye como nodo a todos los tags y la estructura según la jerarquía que les fue dado dentro de la página, donde la etiqueta madre contiene a todas las otras etiquetas.
@@ -61,12 +59,7 @@ Modelo jerárquico que el navegador construye en base al HTML que está cargando
 
 Mapa de objetos de css que organiza el arbol de propiedades
 
-
 ## Js
-
-1==“1”, null==undefined, ‘’==0: true
-
-1 === “1”: false
 
 - Promesas: Encadenar las llamadas asíncronas (que caen en el event loop) y poder controlar el orden de ejecución. Tiene los estados de resolve, pending y reject
 - Loop: Gestionar operaciones que sean blocking I/O
@@ -80,7 +73,6 @@ Es una plataforma OpenSource que permite la ejecucion de js fuera del navegador 
 Biblioteca que maneja las colas, los sockets, el filesystem, signal handling, etc.
 Otorgar un ambiente de contexto de ejecución a V8 fuera de un browser
 
-
 ## NPM
 
 Hermano de node, es un gestor de paquetes.
@@ -89,10 +81,8 @@ Hermano de node, es un gestor de paquetes.
 
 Se encarga de recibir solicitudes del cliente y mandarlos al lugar adecuado del servidor.
 
-
 ### KOA
 Framework para app web que implementa multiples middlewares especializados en labores atomicos
-
 
 ## Tipos de app
 
@@ -140,7 +130,6 @@ Monton de reglas de trafico de informacion
 Un sistema de nomenclatura jerárquica descentralizado para dispositivos
 Permite identificar (descifrar) la IP que corresponde a un nombre de dominio.
 
-
 ## JOSE
 Framework cuyo propósito es entregar un metodo que permita el intercambio seguro en transferencia de dos sistemas
 
@@ -148,7 +137,7 @@ Framework cuyo propósito es entregar un metodo que permita el intercambio segur
 Enruta una dirección proveniente de una solicitud un cliente, identifica el servicio (domain más puerto) que puede atender la consulta del recurso y luego se encarga de enrutar la respuesta.
 
 ## ORM
-Object-Relational-Mapping. Es el tercer nivel de abstracción. Separa el lenguaje de programacion del concepto de trabajo con base de datos, encapsulando el codigo para trabajar con los datos y mapeando un registro o estructura de datos con objetos o clases.
+Object-Relational-Mapping. Separa el lenguaje de programacion del concepto de trabajo con base de datos, encapsulando el codigo para trabajar con los datos y mapeando un registro o estructura de datos con objetos o clases.
 
 ## AJAX
 _Asynchronous JavaScript and XML_. Es un conjunto de técnicas de desarrollo web que permiten que las aplicaciones web funcionen de forma asíncrona
@@ -166,7 +155,6 @@ Protocolo de seguridad de internet.
     - Testing unitario: Testear un componente de forma individual
     - Testing de integración: Testear varios componentes trabajando en conjunto
 
-
 ## Seguridad
 
 - **Injection**: Envío de datos no fiables a un interprete como parte de un comando o consulta. Puede permitir al atacante acceder a datos sin la autorización apropiada.
@@ -175,7 +163,7 @@ Protocolo de seguridad de internet.
 - **Broken acces control**: Restricciones sobre que pueden hacer los usuarios autentificados.
 - **Security missconfiguration**: Resultado de configuraciones por defecto, incompletas, abiertas, cabeceras de http con informacion sensible
 - **Cross site scripting (XSS)**
-Cuando la aplicación incluye datos no fiables en una nueva pagina web sin validación. Permite ejecutar scripts en el navegador de la víctima. 
+Cuando la aplicación incluye datos no fiables en una nueva pagina web sin validación. Permite ejecutar scripts en el navegador de la víctima.
     - XSS Persistente: El ataque es almacenado en el servidor de destino
     - XSS reflective: Cuando la app recibe datos desde un request que incluye datos de una inyeccion no segura. EJ: https://OWO.com/status?msg=hora+mundo
     - XSS DOM: Orientado en el lado del cliente, para alterar el contenido visible.

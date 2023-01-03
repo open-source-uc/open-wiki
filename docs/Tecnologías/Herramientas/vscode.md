@@ -13,7 +13,7 @@ VSCode se puede descargar de forma gratuita desde la página web oficial de Micr
 
 ## Configuración
 
-Al principio puede parecer extraño, pero todas las configuraciones de vscode estan en un archivo `.json` que pueden personalizar. Para ingresar a el tienen que teclear `[CTRL] + [SHIFT] + P` o `F1` y escribir `Preferencias: Abrir Configuración (JSON)` o `Preferences: Open Settings (JSON)` Si lo tienen en ingles.
+Al principio puede parecer extraño, pero todas las configuraciones de vscode estan en un archivo `.json` que pueden personalizar. Para ingresar a el tienen que teclear ++ctrl+shift+p++ o ++f1++ y escribir `Preferencias: Abrir Configuración (JSON)` o `Preferences: Open Settings (JSON)` Si lo tienen en ingles.
 
 Como ejemplo. Pueden pegar las siguientes lineas dentro de los "{}", solo procura que la ultima linea que agregues al archivo no tenga la coma puesta:
 
@@ -26,37 +26,37 @@ Como ejemplo. Pueden pegar las siguientes lineas dentro de los "{}", solo procur
 ```
 
 ## Atajos de teclado
-Si quieres ver todos los atajos, puedes presionar `Ctrl + K + S` para ver la lista completa de atajos de teclado disponibles.
-En windows se utiliza `CTRL`y en mac `CMD`, pero en general funcionan igual.
+Si quieres ver todos los atajos, puedes presionar ++ctrl+k+s++ para ver la lista completa de atajos de teclado disponibles.
+En windows se utiliza ++ctrl++ y en mac ++cmd++, pero en general funcionan igual.
 
-- COMENTAR varias líneas y a la vez: `[CTRL] + K` (Vscode queda a la espera). Después pulsa `[CTRL] + C` para comentar y `[CTRL] + U` para descomentar.
-- `Ctrl + Shift + L` Selecciona todas las ocurrencias de la selección actual.
-- `Ctrl + S`: Guarda el archivo actual.
-- `Ctrl + Shift + S`: Guarda todos los archivos abiertos.
-- `Ctrl + W`: Cierra el archivo actual.
-- `Ctrl + Shift + W`: Cierra todos los archivos abiertos.
-- `Ctrl + F`: Abre la barra de búsqueda.
-- `Ctrl + P`: Muestra el panel de navegación de archivos.
+- COMENTAR varias líneas y a la vez: ++ctrl+k++ (Vscode queda a la espera). Después pulsa ++ctrl+ C` para comentar y ++ctrl+u++ para descomentar.
+- ++ctrl+shift+l++ Selecciona todas las ocurrencias de la selección actual.
+- ++ctrl+s++: Guarda el archivo actual.
+- ++ctrl+shift+s++: Guarda todos los archivos abiertos.
+- ++ctrl+w++: Cierra el archivo actual.
+- ++ctrl+shift+w++: Cierra todos los archivos abiertos.
+- ++ctrl+f++: Abre la barra de búsqueda.
+- ++ctrl+p++: Muestra el panel de navegación de archivos.
 
 
 ## Extensiones utiles
 
-- *Code Runer*: Te permite ejecutar el código de forma mucho más amigable sin escribir en la consola.
-- *Spanish Language Pack*: Te permite tener VSCode en español.
-- *Project Manager*: Sirve para tener carpetas en favoritos y para no perder el tiempo buscando en las carpetas.
-- *Better Commets*: Agrega opciones para comentarios con colores, es SUPER recomendada.
-- *Jupyter Extension*: Te permite integrar Jupyter en el editor, es MUY cómodo y te permite desplazarte de forma muy amigable entre carpetas.
-- *Draw.io Integration*: Sirve para hacer diagramas de draw.io desde el mismo VSCode.
+- **[Code Runer](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)**: Te permite ejecutar el código de forma mucho más amigable sin escribir en la consola.
+- **[Spanish Language Pack](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es)**: Te permite tener VSCode en español.
+- **[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)**: Sirve para tener carpetas en favoritos y para no perder el tiempo buscando en las carpetas.
+- **[Better Commets](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)**: Agrega opciones para comentarios con colores, es SUPER recomendada.
+- **[Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)**: Te permite integrar Jupyter en el editor, es MUY cómodo y te permite desplazarte de forma muy amigable entre carpetas.
+- **[Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)**: Sirve para hacer diagramas de draw.io desde el mismo VSCode.
 
 
 ## Temas de color recomendados
 _Recomiendamos evitar themes que tengan alto contraste como Monokai Charcoal o Pitch Black._
 
-- *One Dark Pro*: Es de los temas más instalados y es agradable para usar durante varias horas de trabajo.
-- *Polykai*: Un tema oscuro con buen contraste
-- *Dracula Official*: Tiene colores muy agradables
+- **[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)**: Es de los temas más instalados y es agradable para usar durante varias horas de trabajo.
+- **[Polykai](https://marketplace.visualstudio.com/items?itemName=adamgraham.polykai-theme)**: Un tema oscuro con buen contraste
+- *[Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)**: Tiene colores muy agradables
 
 ## Tipografias recomendadas
 
-- *JetBrains Mono*: Una tipografía muy utilizada y que permite activar 'ligaduras' para formar símbolos y flechas (recomiendo buscar un tutorial para instalarlo).
+- **[JetBrains Mono](https://vueschool.io/articles/vuejs-tutorials/how-to-install-jetbrains-mono-font-in-visual-studio-code/)**: Una tipografía muy utilizada y que permite activar 'ligaduras' para formar símbolos y flechas (recomiendo buscar un tutorial para instalarlo).
 
