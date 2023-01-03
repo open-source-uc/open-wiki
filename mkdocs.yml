@@ -1,10 +1,37 @@
 site_name: Open Wiki
+site_description: Wiki colaborativa de estudiantes para estudiantes, hechas por Open Source eUC
 
 repo_url: https://github.com/open-source-uc/open-wiki
 edit_uri: edit/main/docs/
 
 nav:
-  - Inicio: index.md
+  - Inicio:
+      - index: index.md
+      - Contribuir: ./contributing.md
+
+  - Cursos:
+      - index: ./cursos/index.md
+      - Introducción a la programación: ./cursos/IIC1103.md
+      - Tecnologías y Aplicaciones Web: ./cursos/IIC2513.md
+
+  - Herramientas:
+      - index: ./herramientas/index.md
+      - Terminal: ./herramientas/terminal.md
+      - VSCode: ./herramientas/vscode.md
+
+  - Tecnologías:
+      - index: ./tec/index.md
+      - Python:
+          - Introducción: ./tec/python/01-intro.md
+          - Tipos: ./tec/python/02-tipos.md
+          - Variables: ./tec/python/03-variables.md
+          - Condiciones: ./tec/python/04-condiciones.md
+      - Web:
+          - Introducción: ./tec/web/01-intro.md
+          - Request: ./tec/web/02-request.md
+          # - HTML: ./tec/web/03-html.md
+          # - CSS: ./tec/web/04-css.md
+          # - JavaScript: ./tec/web/05-js.md
 
 plugins:
   - search
@@ -16,6 +43,16 @@ theme:
   language: es
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+    - navigation.expand
+    - search.highlight
+    - header.autohide
+    - content.code.copy
+    - content.tabs.link
   palette:
     - scheme: defaultx
       media: "(prefers-color-scheme: light)"
@@ -30,15 +67,27 @@ theme:
 
 markdown_extensions:
   - admonition
+  - abbr
   - def_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra:
   social:
