@@ -48,22 +48,14 @@ nav:
           - Index: Cursos/bdd/index.md
       - IIC2143 - Ingeniería de Software:
           - Index: Cursos/ing_software/index.md
-      - IIC2026 - Visualización de Información:
-          - Index: Cursos/visualizacion_informacion/index.md
-      - IIC2113 - Diseño Detallado de Software:
-          - Index: Cursos/diseño_detallado_software/index.md
-      - IIC2283 - Diseño y Análisis de Algoritmos:
-          - Index: Cursos/diseño_algoritmos/index.md
-      - IIC2333 - Sistemas Operativos y Redes:
-          - Index: Cursos/sistemas_operativos/index.md
-      - IIC2343 - Arquitectura de Computadores:
-          - Index: Cursos/arqui_compu/index.md
-      - IIC2553 - Taller de Programación Competitiva II:
-          - Index: Cursos/programacion_competitiva/index.md
-      - IIC2613 - Inteligencia Artificial:
-          - Index: Cursos/inteligencia_artificial/index.md
-      - IIC3633 - Sistemas Recomendadores:
-          - Index: Cursos/sistemas_recomendadores/index.md
+      #- IIC2026 - Visualización de Información:
+      #- IIC2113 - Diseño Detallado de Software:
+      #- IIC2283 - Diseño y Análisis de Algoritmos:
+      #- IIC2333 - Sistemas Operativos y Redes:
+      #- IIC2343 - Arquitectura de Computadores:
+      #- IIC2553 - Taller de Programación Competitiva II:
+      #- IIC2613 - Inteligencia Artificial:
+      #- IIC3633 - Sistemas Recomendadores:
   - Como contribuir: contributing.md
 
 plugins:

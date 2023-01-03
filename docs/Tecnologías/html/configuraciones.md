@@ -7,5 +7,12 @@ Aca se encuentran algunas recomendaciones sobre las configuraciones iniciales.
 Siguiendo la guia de [VScode](../Herramientas/vscode.md). Pueden incluir en las configuraciones de vscode lo siguiente (`ctrl+shif+p` p `F1`):
 
 ```json
-
+  "html.format.enable": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.maxPreserveNewLines": 1,
+  "html.format.preserveNewLines": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.wrapAttributes": "auto"
 ```
