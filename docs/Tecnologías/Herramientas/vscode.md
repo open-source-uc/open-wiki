@@ -9,7 +9,7 @@ Visual Studio Code (VSCode) es un editor de código fuente gratuito y de código
 - Extensiones: VSCode cuenta con una gran cantidad de extensiones disponibles para personalizar y ampliar sus funcionalidades.
 
 ## Descarga e instalación
-VSCode se puede descargar de forma gratuita desde la página web oficial de Microsoft: https://code.visualstudio.com/. La instalación es sencilla y seguir las instrucciones del asistente de instalación.
+VSCode se puede descargar de forma gratuita desde la página web oficial de [Microsoft](https://code.visualstudio.com/). La instalación es sencilla y seguir las instrucciones del asistente de instalación.
 
 ## Configuración
 
@@ -29,7 +29,7 @@ Como ejemplo. Pueden pegar las siguientes lineas dentro de los "{}", solo procur
 Si quieres ver todos los atajos, puedes presionar ++ctrl+k+s++ para ver la lista completa de atajos de teclado disponibles.
 En windows se utiliza ++ctrl++ y en mac ++cmd++, pero en general funcionan igual.
 
-- COMENTAR varias líneas y a la vez: ++ctrl+k++ (Vscode queda a la espera). Después pulsa ++ctrl+ C` para comentar y ++ctrl+u++ para descomentar.
+- COMENTAR varias líneas y a la vez: ++ctrl+k++ (Vscode queda a la espera). Después pulsa ++ctrl+c++ para comentar y ++ctrl+u++ para descomentar.
 - ++ctrl+shift+l++ Selecciona todas las ocurrencias de la selección actual.
 - ++ctrl+s++: Guarda el archivo actual.
 - ++ctrl+shift+s++: Guarda todos los archivos abiertos.
@@ -37,7 +37,6 @@ En windows se utiliza ++ctrl++ y en mac ++cmd++, pero en general funcionan igual
 - ++ctrl+shift+w++: Cierra todos los archivos abiertos.
 - ++ctrl+f++: Abre la barra de búsqueda.
 - ++ctrl+p++: Muestra el panel de navegación de archivos.
-
 
 ## Extensiones utiles
 
@@ -48,13 +47,12 @@ En windows se utiliza ++ctrl++ y en mac ++cmd++, pero en general funcionan igual
 - **[Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)**: Te permite integrar Jupyter en el editor, es MUY cómodo y te permite desplazarte de forma muy amigable entre carpetas.
 - **[Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)**: Sirve para hacer diagramas de draw.io desde el mismo VSCode.
 
-
 ## Temas de color recomendados
 _Recomiendamos evitar themes que tengan alto contraste como Monokai Charcoal o Pitch Black._
 
 - **[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)**: Es de los temas más instalados y es agradable para usar durante varias horas de trabajo.
 - **[Polykai](https://marketplace.visualstudio.com/items?itemName=adamgraham.polykai-theme)**: Un tema oscuro con buen contraste
-- *[Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)**: Tiene colores muy agradables
+- **[Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)**: Tiene colores muy agradables
 
 ## Tipografias recomendadas
 
