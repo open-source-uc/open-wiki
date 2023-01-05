@@ -7,47 +7,44 @@ edit_uri: edit/main/docs/
 nav:
   - Inicio: index.md
   - Tecnologías:
-      - Index: Tecnologías/index.md
-      - Herramientas:
-          - Visual Studio Code: Tecnologías/Herramientas/vscode.md
-          - Google Colab: Tecnologías/Herramientas/google_colab.md
+      - Index: tecnologías/index.md
       - Python:
-            - Index: Tecnologías/python/index.md
-            - Configuraciones: Tecnologías/python/configuraciones.md
+            - Index: tecnologías/python/index.md
+            - Configuraciones: tecnologías/python/configuraciones.md
       - C:
-            - Index: Tecnologías/c/index.md
-            - Configuraciones: Tecnologías/c/configuraciones.md
+            - Index: tecnologías/c/index.md
+            - Configuraciones: tecnologías/c/configuraciones.md
       - html:
-            - Index: Tecnologías/html/index.md
-            - Configuraciones: Tecnologías/html/configuraciones.md
+            - Index: tecnologías/html/index.md
+            - Configuraciones: tecnologías/html/configuraciones.md
       - JavaScript:
-            - Index: Tecnologías/javascript/index.md
-            - Configuraciones: Tecnologías/javascript/configuraciones.md
+            - Index: tecnologías/javascript/index.md
+            - Configuraciones: tecnologías/javascript/configuraciones.md
       - css:
-            - Index: Tecnologías/css/index.md
-            - Configuraciones: Tecnologías/css/configuraciones.md
+            - Index: tecnologías/css/index.md
+            - Configuraciones: tecnologías/css/configuraciones.md
       - php:
-            - Index: Tecnologías/php/index.md
-            - Configuraciones: Tecnologías/php/configuraciones.md
+            - Index: tecnologías/php/index.md
+            - Configuraciones: tecnologías/php/configuraciones.md
       - ruby:
-            - Index: Tecnologías/ruby/index.md
-            - Configuraciones: Tecnologías/ruby/configuraciones.md
+            - Index: tecnologías/ruby/index.md
+            - Configuraciones: tecnologías/ruby/configuraciones.md
   - Cursos:
-      - Index: Cursos/index.md
-      - Compilado de repositorios: Cursos/compilado.md
+      - Index: cursos/index.md
+      - Compilado de repositorios: cursos/compilado.md
       - IIC2513 - Tecnologías y Aplicaciones Web:
-          - Index: Cursos/web/index.md
-          - Resumen: Cursos/web/resumen.md
+          - Index: cursos/IIC2513 - web/index.md
+          - Resumen: cursos/IIC2513 - web/resumen.md
       - IIC2133 - Estructuras de Datos y Algoritmos:
-          - Index: Cursos/edd/index.md
+          - Index: cursos/IIC2133 - edd/index.md
       - IIC1103 - Introduccion a la programación:
-          - Index: Cursos/intro_progra/index.md
-      - iic2233 - Programación avanzada:
-          - Index: Cursos/avanzada/index.md
+          - Index: cursos/IIC1103 - intro progra/index.md
+      - IIC2233 - Programación avanzada:
+          - Index: cursos/IIC2233 - avanzada/index.md
       - IIC2413 - Bases de Datos:
-          - Index: Cursos/bdd/index.md
+          - Index: cursos/IIC2413 - bdd/index.md
       - IIC2143 - Ingeniería de Software:
-          - Index: Cursos/ing_software/index.md
+          - Index: cursos/IIC2143 - ing software/index.md
       #- IIC2026 - Visualización de Información:
       #- IIC2113 - Diseño Detallado de Software:
       #- IIC2283 - Diseño y Análisis de Algoritmos:
@@ -56,6 +53,10 @@ nav:
       #- IIC2553 - Taller de Programación Competitiva II:
       #- IIC2613 - Inteligencia Artificial:
       #- IIC3633 - Sistemas Recomendadores:
+  - Herramientas:
+      - index: herramientas/index.md
+      - Visual Studio Code: herramientas/vscode.md
+      - Google Colab: herramientas/google_colab.md
   - Como contribuir: contributing.md
 
 plugins:
