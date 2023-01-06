@@ -33,20 +33,20 @@ nav:
       - Index: cursos/index.md
       - Compilado de repositorios: cursos/compilado.md
       - IIC2513 - Tecnologías y Aplicaciones Web:
-          - Index: cursos/IIC2513 - web/index.md
-          - Resumen: cursos/IIC2513 - web/resumen.md
+          - Index: cursos/IIC2513/index.md
+          - Resumen: cursos/IIC2513/resumen.md
       - IIC2133 - Estructuras de Datos y Algoritmos:
-          - Index: cursos/IIC2133 - edd/index.md
+          - Index: cursos/IIC2133/index.md
       - IIC1103 - Introduccion a la programación:
-          - Index: cursos/IIC1103 - intro progra/index.md
+          - Index: cursos/IIC1103/index.md
       - IIC2233 - Programación avanzada:
-          - Index: cursos/IIC2233 - avanzada/index.md
+          - Index: cursos/IIC2233/index.md
       - IIC2413 - Bases de Datos:
-          - Index: cursos/IIC2413 - bdd/index.md
+          - Index: cursos/IIC2413/index.md
       - IIC2143 - Ingeniería de Software:
-          - Index: cursos/IIC2143 - ing software/index.md
+          - Index: cursos/IIC2143/index.md
       - IIC2764 - Conocimiento, cultura y tecnología:
-          - Index: cursos/IIC2764 -cct/index.md
+          - Index: cursos/IIC2764/index.md
       #- IIC2026 - Visualización de Información:
       #- IIC2113 - Diseño Detallado de Software:
       #- IIC2283 - Diseño y Análisis de Algoritmos:
