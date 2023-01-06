@@ -9,26 +9,26 @@ nav:
   - Tecnologías:
       - Index: tecnologías/index.md
       - Python:
-            - Index: tecnologías/python/index.md
-            - Configuraciones: tecnologías/python/configuraciones.md
+          - Index: tecnologías/python/index.md
+          - Configuraciones: tecnologías/python/configuraciones.md
       - C:
-            - Index: tecnologías/c/index.md
-            - Configuraciones: tecnologías/c/configuraciones.md
+          - Index: tecnologías/c/index.md
+          - Configuraciones: tecnologías/c/configuraciones.md
       - html:
-            - Index: tecnologías/html/index.md
-            - Configuraciones: tecnologías/html/configuraciones.md
+          - Index: tecnologías/html/index.md
+          - Configuraciones: tecnologías/html/configuraciones.md
       - JavaScript:
-            - Index: tecnologías/javascript/index.md
-            - Configuraciones: tecnologías/javascript/configuraciones.md
+          - Index: tecnologías/javascript/index.md
+          - Configuraciones: tecnologías/javascript/configuraciones.md
       - css:
-            - Index: tecnologías/css/index.md
-            - Configuraciones: tecnologías/css/configuraciones.md
+          - Index: tecnologías/css/index.md
+          - Configuraciones: tecnologías/css/configuraciones.md
       - php:
-            - Index: tecnologías/php/index.md
-            - Configuraciones: tecnologías/php/configuraciones.md
+          - Index: tecnologías/php/index.md
+          - Configuraciones: tecnologías/php/configuraciones.md
       - ruby:
-            - Index: tecnologías/ruby/index.md
-            - Configuraciones: tecnologías/ruby/configuraciones.md
+          - Index: tecnologías/ruby/index.md
+          - Configuraciones: tecnologías/ruby/configuraciones.md
   - Cursos:
       - Index: cursos/index.md
       - Compilado de repositorios: cursos/compilado.md
@@ -45,6 +45,8 @@ nav:
           - Index: cursos/IIC2413 - bdd/index.md
       - IIC2143 - Ingeniería de Software:
           - Index: cursos/IIC2143 - ing software/index.md
+      - IIC2764 - Conocimiento, cultura y tecnología:
+          - Index: cursos/IIC2764 -cct/index.md
       #- IIC2026 - Visualización de Información:
       #- IIC2113 - Diseño Detallado de Software:
       #- IIC2283 - Diseño y Análisis de Algoritmos:
@@ -76,7 +78,6 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.top
-    - navigation.expand
     - search.highlight
     - header.autohide
     - content.code.copy

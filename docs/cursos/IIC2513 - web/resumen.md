@@ -6,9 +6,11 @@ _Hypertext Transfer Protocol_. Sirve para la transferencia de información. Se d
 Es carente de estados, o sea no hay vinculo entre solicitudes y no se acuerda de uno (stateless). Tiene un header (información solicitud) una linea en blanco (espaciador) y un Body (informacion en si)
 
 ### TCP
+
 _Tranmission Control Protocol_. Estandar para transmitir los datos, trabaja con las direcciones IP, definiendo como se envian los paquetes de información entre los computadores.
 
 ### IP
+
 Especifica la dirección de un computador dentro de una red.
 
 - IPv4: Son del formato XXX.XXX.XXX.XXX, donde XXX es un int que va desde 0 a 255, permitiendo crear un total de 4,294,967,296 (o 256 4 ) direcciones diferentes. Ejemplo: 172.16.254.1
@@ -17,21 +19,24 @@ Especifica la dirección de un computador dentro de una red.
 IANA: Es la entidad que supervisa la asignación global de direcciones IP. (Organiza y entrega rangos)
 
 ### DNS
+
 Servidores que guardan nombres de páginas, de forma tal que cuando uno desea conectarse a una, escribe su nombre en lugar de la dirección IP.
 
 ### Request
 
 Tiene la siguiente sintaxis:
+
 - Métodos
-	- Head: Obtener la cabecera de lo que se envia como respuesta a un GET
-	- POST: Envia datos
-	- GET: Obtiene datos
-	- PATCH: Actualiza un dato
-	- DELETE: Borra un recurso
-	- PUT: Almacena datos
+
+  - Head: Obtener la cabecera de lo que se envia como respuesta a un GET
+  - POST: Envia datos
+  - GET: Obtiene datos
+  - PATCH: Actualiza un dato
+  - DELETE: Borra un recurso
+  - PUT: Almacena datos
 
 - URI: Especifica el recurso solicitado
-    ![](https://i.imgur.com/gHNWd5Y.png)
+  ![](https://i.imgur.com/gHNWd5Y.png)
 
 - version http
 
@@ -46,6 +51,7 @@ Tiene la siguiente sintaxis:
 ## URL
 
 (Uniform Resource Locator) Es una ubicación. Se usa para identificar la forma de un recurso en la web. Tiene:
+
 - Protocolo: ftp/http
 - Hostname: Nombre dado por el DNS. Ej: localhost
 - Puerto: Nº con lugar fisico donde se escucha una pitición. Ej: 80=HTTP, 443=HTTPS
@@ -82,6 +88,7 @@ Hermano de node, es un gestor de paquetes.
 Se encarga de recibir solicitudes del cliente y mandarlos al lugar adecuado del servidor.
 
 ### KOA
+
 Framework para app web que implementa multiples middlewares especializados en labores atomicos
 
 ## Tipos de app
@@ -93,8 +100,8 @@ Framework para app web que implementa multiples middlewares especializados en la
 
 _SPA son paginas web construidas para ser usadas en navegadores. Las PWA se construyen para ser usadas en dispositivos móviles._
 
-
 ## Roles
+
 - Developers
 - SEO, CM
 - Oficial de ciberseguridad
@@ -106,40 +113,52 @@ _SPA son paginas web construidas para ser usadas en navegadores. Las PWA se cons
 - UX: Encargado de User Experience
 
 ## Callback
+
 Es una funcion que es pasada como parámetro a otra función con la “esperanza” de que sea invocada en algun momento.
 
 ## JQuery
+
 Biblioteca multiplataforma de js que simplifica la sintaxis para acceder a componentes y eventos del DOM
 
 ## APIs
+
 Aísla implementación de la invocación. Es una interfaz que permite la interacción entre multiples actores de sofware
 
 ## JWT
+
 Sirve para codificar y firmar, no encriptar. Vela por la integridad y autenticidad de la inf.
+
 - Header: Contiene info acerca del algoritmo de encriptación
 - Payload: Inf. A transferir en notacion json
-- Signature:  Se forma con el encoded header, el encoded payload, un secreto y el algoritmo usado para hacer el encoding.
+- Signature: Se forma con el encoded header, el encoded payload, un secreto y el algoritmo usado para hacer el encoding.
 
 ## CDN
+
 Red de servidores distribuidos que se articulan para entregar contenido y transferirlo utilizando internet. Si un sitio ya descargo contenido una vez, no se vuelve a descargar
 
 ## Firewall
+
 Monton de reglas de trafico de informacion
 
 ## DNS
+
 Un sistema de nomenclatura jerárquica descentralizado para dispositivos
 Permite identificar (descifrar) la IP que corresponde a un nombre de dominio.
 
 ## JOSE
+
 Framework cuyo propósito es entregar un metodo que permita el intercambio seguro en transferencia de dos sistemas
 
 ## Proxy Inverso:
+
 Enruta una dirección proveniente de una solicitud un cliente, identifica el servicio (domain más puerto) que puede atender la consulta del recurso y luego se encarga de enrutar la respuesta.
 
 ## ORM
+
 Object-Relational-Mapping. Separa el lenguaje de programacion del concepto de trabajo con base de datos, encapsulando el codigo para trabajar con los datos y mapeando un registro o estructura de datos con objetos o clases.
 
 ## AJAX
+
 _Asynchronous JavaScript and XML_. Es un conjunto de técnicas de desarrollo web que permiten que las aplicaciones web funcionen de forma asíncrona
 
 ## TLS
@@ -152,8 +171,8 @@ Protocolo de seguridad de internet.
 - Análisis Dinámico: Ejecución y búsqueda de mal comportamiento, desempeño o seguridad.
 - Code Review: Distintos pares revisan el código
 - Testing: Diseño de pruebas automatizadas para someter a un software bajo diferentes casos de prueba
-    - Testing unitario: Testear un componente de forma individual
-    - Testing de integración: Testear varios componentes trabajando en conjunto
+  - Testing unitario: Testear un componente de forma individual
+  - Testing de integración: Testear varios componentes trabajando en conjunto
 
 ## Seguridad
 
@@ -163,21 +182,19 @@ Protocolo de seguridad de internet.
 - **Broken acces control**: Restricciones sobre que pueden hacer los usuarios autentificados.
 - **Security missconfiguration**: Resultado de configuraciones por defecto, incompletas, abiertas, cabeceras de http con informacion sensible
 - **Cross site scripting (XSS)**
-Cuando la aplicación incluye datos no fiables en una nueva pagina web sin validación. Permite ejecutar scripts en el navegador de la víctima.
-    - XSS Persistente: El ataque es almacenado en el servidor de destino
-    - XSS reflective: Cuando la app recibe datos desde un request que incluye datos de una inyeccion no segura. EJ: https://OWO.com/status?msg=hora+mundo
-    - XSS DOM: Orientado en el lado del cliente, para alterar el contenido visible.
+  Cuando la aplicación incluye datos no fiables en una nueva pagina web sin validación. Permite ejecutar scripts en el navegador de la víctima. - XSS Persistente: El ataque es almacenado en el servidor de destino - XSS reflective: Cuando la app recibe datos desde un request que incluye datos de una inyeccion no segura. EJ: https://OWO.com/status?msg=hora+mundo - XSS DOM: Orientado en el lado del cliente, para alterar el contenido visible.
 
-    **Proteccion contra XSS**
-    - Escaping: Asegurar que son seguros antes de renderizarlo
-    - Validacion de entrada: Todo dato no fiable sera malicioso. Proceso de asegurar que esta presentando los datos correctos
-    - Sanitización: Limpiar fragmentos HTML y documentos
+      **Proteccion contra XSS**
+      - Escaping: Asegurar que son seguros antes de renderizarlo
+      - Validacion de entrada: Todo dato no fiable sera malicioso. Proceso de asegurar que esta presentando los datos correctos
+      - Sanitización: Limpiar fragmentos HTML y documentos
 
 - **Deserialización insegura**: Convierte estructuras complejas en un formato plano de bytes. Al deserializar, se produce una ejecución remota de código.
 - **Componentes con vulnerabilidades conocidas**
 - **Insuficiente monitoreo y/o logging**: Permite que los atacantes sigan atacando un sistema
 
 ### Cookies
+
 - Man in the middle: Hay que usar la directiva Secure para setear una cookie
 - Ataque CSRF: Se evita con cabecera en los request
 
