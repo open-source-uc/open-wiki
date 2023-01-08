@@ -10,43 +10,30 @@ nav:
       - Index: tecnologías/index.md
       - Python:
           - Index: tecnologías/python/index.md
-          - Configuraciones: tecnologías/python/configuraciones.md
       - C:
           - Index: tecnologías/c/index.md
-          - Configuraciones: tecnologías/c/configuraciones.md
       - html:
           - Index: tecnologías/html/index.md
-          - Configuraciones: tecnologías/html/configuraciones.md
       - JavaScript:
           - Index: tecnologías/javascript/index.md
-          - Configuraciones: tecnologías/javascript/configuraciones.md
       - css:
           - Index: tecnologías/css/index.md
-          - Configuraciones: tecnologías/css/configuraciones.md
       - php:
           - Index: tecnologías/php/index.md
-          - Configuraciones: tecnologías/php/configuraciones.md
       - ruby:
           - Index: tecnologías/ruby/index.md
-          - Configuraciones: tecnologías/ruby/configuraciones.md
   - Cursos:
       - Index: cursos/index.md
       - Compilado de repositorios: cursos/compilado.md
       - IIC2513 - Tecnologías y Aplicaciones Web:
           - Index: cursos/IIC2513/index.md
           - Resumen: cursos/IIC2513/resumen.md
-      - IIC2133 - Estructuras de Datos y Algoritmos:
-          - Index: cursos/IIC2133/index.md
-      - IIC1103 - Introduccion a la programación:
-          - Index: cursos/IIC1103/index.md
-      - IIC2233 - Programación avanzada:
-          - Index: cursos/IIC2233/index.md
-      - IIC2413 - Bases de Datos:
-          - Index: cursos/IIC2413/index.md
-      - IIC2143 - Ingeniería de Software:
-          - Index: cursos/IIC2143/index.md
-      - IIC2764 - Conocimiento, cultura y tecnología:
-          - Index: cursos/IIC2764/index.md
+      - IIC2133 - Estructuras de Datos y Algoritmos: cursos/IIC2133.md
+      - IIC1103 - Introduccion a la programación: cursos/IIC1103.md
+      - IIC2233 - Programación avanzada: cursos/IIC2233.md
+      - IIC2413 - Bases de Datos: cursos/IIC2413.md
+      - IIC2143 - Ingeniería de Software: cursos/IIC2143.md
+      - IIC2764 - Conocimiento, cultura y tecnología: cursos/IIC2764.md
       #- IIC2026 - Visualización de Información:
       #- IIC2113 - Diseño Detallado de Software:
       #- IIC2283 - Diseño y Análisis de Algoritmos:
@@ -59,7 +46,8 @@ nav:
       - index: herramientas/index.md
       - Visual Studio Code: herramientas/vscode.md
       - Google Colab: herramientas/google_colab.md
-  - Como contribuir: contributing.md
+  - Contribuir: contributing.md
+  - DCCursos (OneDrive): https://bit.ly/dccursos_uc
 
 plugins:
   - search
