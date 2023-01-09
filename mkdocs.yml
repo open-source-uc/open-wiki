@@ -9,29 +9,57 @@ nav:
       - index: index.md
       - Contribuir: ./contributing.md
 
-  - Cursos:
-      - index: ./cursos/index.md
-      - Introducción a la programación: ./cursos/IIC1103.md
-      - Tecnologías y Aplicaciones Web: ./cursos/IIC2513.md
-
   - Herramientas:
       - index: ./herramientas/index.md
       - Terminal: ./herramientas/terminal.md
       - VSCode: ./herramientas/vscode.md
-
   - Tecnologías:
-      - index: ./tec/index.md
+      - Index: ./tecnologías/index.md
       - Python:
+          - Index: tecnologías/python/index.md
           - Introducción: ./tec/python/01-intro.md
           - Tipos: ./tec/python/02-tipos.md
           - Variables: ./tec/python/03-variables.md
           - Condiciones: ./tec/python/04-condiciones.md
+      - C:
+          - Index: tecnologías/c/index.md
+      - html:
+          - Index: tecnologías/html/index.md
+      - JavaScript:
+          - Index: tecnologías/javascript/index.md
+      - css:
+          - Index: tecnologías/css/index.md
+      - php:
+          - Index: tecnologías/php/index.md
+      - ruby:
+          - Index: tecnologías/ruby/index.md
       - Web:
           - Introducción: ./tec/web/01-intro.md
           - Request: ./tec/web/02-request.md
           # - HTML: ./tec/web/03-html.md
           # - CSS: ./tec/web/04-css.md
           # - JavaScript: ./tec/web/05-js.md
+  - Cursos:
+      - Index: cursos/index.md
+      - Compilado de repositorios: cursos/compilado.md
+      - IIC2513 - Tecnologías y Aplicaciones Web:
+          - Index: cursos/IIC2513/index.md
+          - Resumen: cursos/IIC2513/resumen.md
+      - IIC2133 - Estructuras de Datos y Algoritmos: cursos/IIC2133.md
+      - IIC1103 - Introduccion a la programación: cursos/IIC1103.md
+      - IIC2233 - Programación avanzada: cursos/IIC2233.md
+      - IIC2413 - Bases de Datos: cursos/IIC2413.md
+      - IIC2143 - Ingeniería de Software: cursos/IIC2143.md
+      - IIC2764 - Conocimiento, cultura y tecnología: cursos/IIC2764.md
+      #- IIC2026 - Visualización de Información:
+      #- IIC2113 - Diseño Detallado de Software:
+      #- IIC2283 - Diseño y Análisis de Algoritmos:
+      #- IIC2333 - Sistemas Operativos y Redes:
+      #- IIC2343 - Arquitectura de Computadores:
+      #- IIC2553 - Taller de Programación Competitiva II:
+      #- IIC2613 - Inteligencia Artificial:
+      #- IIC3633 - Sistemas Recomendadores:
+  - DCCursos (OneDrive): https://bit.ly/dccursos_uc
 
 plugins:
   - search
@@ -41,6 +69,8 @@ plugins:
 theme:
   name: material
   language: es
+  logo: assets/Open-Wiki-favicon.svg
+  favicon: assets/Open-Wiki-favicon.svg
   icon:
     repo: fontawesome/brands/github
   features:
@@ -48,11 +78,10 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.top
-    - navigation.expand
+    - content.tabs.link
     - search.highlight
     - header.autohide
     - content.code.copy
-    - content.tabs.link
   palette:
     - scheme: defaultx
       media: "(prefers-color-scheme: light)"
