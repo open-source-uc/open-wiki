@@ -6,6 +6,8 @@ Primero que nada, ¡gracias por tu motivación! 🥳
     Para aportar contenido directamente a la guía, debes primero
     tener una cuenta de [GitHub](https://github.com/signup)
 
+- Máximo de páginas por sección: 20
+- Máximo de lineas por página: 300
 
 ## Como contribuir rápidamente en GitHub
 

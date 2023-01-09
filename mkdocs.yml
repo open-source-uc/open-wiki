@@ -5,11 +5,22 @@ repo_url: https://github.com/open-source-uc/open-wiki
 edit_uri: edit/main/docs/
 
 nav:
-  - Inicio: index.md
+  - Inicio:
+      - index: index.md
+      - Contribuir: ./contributing.md
+
+  - Herramientas:
+      - index: ./herramientas/index.md
+      - Terminal: ./herramientas/terminal.md
+      - VSCode: ./herramientas/vscode.md
   - Tecnologías:
-      - Index: tecnologías/index.md
+      - Index: ./tecnologías/index.md
       - Python:
           - Index: tecnologías/python/index.md
+          - Introducción: ./tec/python/01-intro.md
+          - Tipos: ./tec/python/02-tipos.md
+          - Variables: ./tec/python/03-variables.md
+          - Condiciones: ./tec/python/04-condiciones.md
       - C:
           - Index: tecnologías/c/index.md
       - html:
@@ -22,6 +33,12 @@ nav:
           - Index: tecnologías/php/index.md
       - ruby:
           - Index: tecnologías/ruby/index.md
+      - Web:
+          - Introducción: ./tec/web/01-intro.md
+          - Request: ./tec/web/02-request.md
+          # - HTML: ./tec/web/03-html.md
+          # - CSS: ./tec/web/04-css.md
+          # - JavaScript: ./tec/web/05-js.md
   - Cursos:
       - Index: cursos/index.md
       - Compilado de repositorios: cursos/compilado.md
@@ -42,11 +59,6 @@ nav:
       #- IIC2553 - Taller de Programación Competitiva II:
       #- IIC2613 - Inteligencia Artificial:
       #- IIC3633 - Sistemas Recomendadores:
-  - Herramientas:
-      - index: herramientas/index.md
-      - Visual Studio Code: herramientas/vscode.md
-      - Google Colab: herramientas/google_colab.md
-  - Contribuir: contributing.md
   - DCCursos (OneDrive): https://bit.ly/dccursos_uc
 
 plugins:
@@ -66,6 +78,7 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.top
+    - content.tabs.link
     - search.highlight
     - header.autohide
     - content.code.copy
