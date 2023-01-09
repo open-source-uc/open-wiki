@@ -6,9 +6,6 @@ Primero que nada, ¡gracias por tu motivación! 🥳
     Para aportar contenido directamente a la guía, debes primero
     tener una cuenta de [GitHub](https://github.com/signup)
 
-- Máximo de páginas por sección: 20
-- Máximo de lineas por página: 300
-
 ## Como contribuir rápidamente en GitHub
 
 ### Editar una página existente
@@ -80,6 +77,12 @@ git add .
 git commit -m "<mensaje>"
 git push origin <nombre-de-la-rama>
 ```
+
+## Estructura y reglas
+
+- Máximo de páginas por sección: 20
+- Máximo de lineas por página: 300
+- No incluir carpetas especificas sobre lenguaje especifico dentro de un curso, intenten referenciar el apartado especifico dentro de la carpeta `tec`
 
 ## Cambiar la configuración del sitio
 

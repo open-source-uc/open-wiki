@@ -7,38 +7,55 @@ edit_uri: edit/main/docs/
 nav:
   - Inicio:
       - index: index.md
-      - Contribuir: ./contributing.md
-
-  - Herramientas:
-      - index: ./herramientas/index.md
-      - Terminal: ./herramientas/terminal.md
-      - VSCode: ./herramientas/vscode.md
+      - Contribuir: contributing.md
   - Tecnologías:
-      - Index: ./tecnologías/index.md
-      - Python:
-          - Index: tecnologías/python/index.md
-          - Introducción: ./tec/python/01-intro.md
-          - Tipos: ./tec/python/02-tipos.md
-          - Variables: ./tec/python/03-variables.md
-          - Condiciones: ./tec/python/04-condiciones.md
-      - C:
-          - Index: tecnologías/c/index.md
-      - html:
-          - Index: tecnologías/html/index.md
-      - JavaScript:
-          - Index: tecnologías/javascript/index.md
-      - css:
-          - Index: tecnologías/css/index.md
-      - php:
-          - Index: tecnologías/php/index.md
-      - ruby:
-          - Index: tecnologías/ruby/index.md
+      - Index: tec/index.md
+      - Lenguajes de programación:
+          - Python:
+              - Index: tec/python/index.md
+              - Introducción: tec/python/01-intro.md
+              - Tipos: tec/python/02-tipos.md
+              - Variables: tec/python/03-variables.md
+              - Condiciones: tec/python/04-condiciones.md
+          - C:
+              - Index: tec/c/index.md
+          - html:
+              - Index: tec/html/index.md
+          - JavaScript:
+              - Index: tec/javascript/index.md
+          - css:
+              - Index: tec/css/index.md
+          - php:
+              - Index: tec/php/index.md
+          - ruby:
+              - Index: tec/ruby/index.md
       - Web:
-          - Introducción: ./tec/web/01-intro.md
-          - Request: ./tec/web/02-request.md
-          # - HTML: ./tec/web/03-html.md
-          # - CSS: ./tec/web/04-css.md
-          # - JavaScript: ./tec/web/05-js.md
+          - Introducción: tec/web/01-intro.md
+          - Request: tec/web/02-request.md
+      # - Desarrollo de juegos:
+      # - Computer Science:
+      # - Estructuras de datos y algoritmos:
+      # - Programación de Sistemas:
+      # - Base de datos:
+      # - Desarrollo de aplicaciones móviles
+      # - Inteligencia artificial:
+      # - Machine Learning:
+          # - Index:
+          # - Data Mining:
+          # - Data Science:
+          # - Modelado gráfico
+          # - Deep Learning
+          # - Aprendizaje reforzado
+      # - Sistemas embebidos:
+      # - Arquitectura de Computadores:
+      # - Seguridad:
+      # - Gráficos de computadora:
+      # - Procesamiento de Imágenes y Visión por Computador:
+      # - Biología Computacional:
+      # - Computación cuántica:
+      # - Robótica:
+      # - Finanzas computacionales:
+      # - Blockchain:
   - Cursos:
       - Index: cursos/index.md
       - Compilado de repositorios: cursos/compilado.md
@@ -59,6 +76,10 @@ nav:
       #- IIC2553 - Taller de Programación Competitiva II:
       #- IIC2613 - Inteligencia Artificial:
       #- IIC3633 - Sistemas Recomendadores:
+  - Herramientas:
+      - index: herramientas/index.md
+      - Terminal: herramientas/terminal.md
+      - VSCode: herramientas/vscode.md
   - DCCursos (OneDrive): https://bit.ly/dccursos_uc
 
 plugins:

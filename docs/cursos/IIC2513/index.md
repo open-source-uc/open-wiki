@@ -1,3 +1,3 @@
 # IIC2513 - Tecnologías y Aplicaciones Web
 
-Pueden consultar el [Resumen](./resumen.md)
+Pueden consultar el [resumen de conceptos](./resumen.md)
