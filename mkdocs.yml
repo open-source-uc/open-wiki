@@ -12,7 +12,6 @@ nav:
       - Index: tec/index.md
       - Lenguajes de programación:
           - Python:
-              - Index: tec/python/index.md
               - Introducción: tec/python/01-intro.md
               - Tipos: tec/python/02-tipos.md
               - Variables: tec/python/03-variables.md
